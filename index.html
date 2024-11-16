@@ -7,23 +7,27 @@
 </head>
 
 <body>
-	<h1>Calculadora de Préstamos</h1>
+  <h1>Calculadora de Préstamos</h1>
 
-	<label for="importe">Importe solicitado:</label>
-	<input type="number" id="importe" placeholder="Ingrese el importe"><br>
+  <label for="importe">Importe solicitado:</label>
+  <input type="number" id="importe" placeholder="Ingrese el importe"><br>
 
-	<label for="interes">Porcentaje de interés (sin %):</label>
-	<input type="number" id="interes" placeholder="Ingrese el interés"><br>
+  <label for="interes">Porcentaje de interés (sin %):</label>
+  <input type="number" id="interes" placeholder="Ingrese el interés"><br>
 
-	<label for="periodo">Duración en meses:</label>
-	<input type="number" id="periodo" placeholder="Ingrese el periodo en meses"><br>
+  <label for="periodo">Duración en meses:</label>
+  <input type="number" id="periodo" placeholder="Ingrese el periodo en meses"><br>
 
-	<button onclick="calcularPrestamo()">Calcular</button>
+  <button onclick="calcularPrestamo()">Calcular</button>
 
-	<h2>Detalles del Préstamo</h2>
-	<p id="resultado"></p>
+  <h2>Detalles del Préstamo</h2>
+  <p id="resultado"></p>
 
-	<script src="./js/app.js"></script>
+  <h2>Historial de Préstamos</h2>
+  <section id="historial"></section>
+
+  <script src="./js/app.js"></script>
 </body>
+
 
 </html>
